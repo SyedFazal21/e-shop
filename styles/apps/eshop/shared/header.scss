@@ -1,0 +1,20 @@
+header {
+  margin-bottom: 25px;
+  .logo {
+    img {
+      width: 160px;
+    }
+  }
+
+  .search{
+    padding-top: 15px;
+  }
+
+  .navigation, .tools{
+    padding-top: 22px;
+
+    &-icon{
+      margin-right: 15px;
+    }
+  }
+}

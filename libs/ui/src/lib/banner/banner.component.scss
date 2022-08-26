@@ -1,0 +1,33 @@
+@import '~animate.css/animate.css';
+$primary-color: #ff3a00;
+
+.banner{
+  height: 280px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #d7effb;
+
+  &-text{
+    color: var(--surface-700);
+    margin-top: 50px;
+
+    h1{
+      margin: 0;
+      font-size: 3em;
+      font-weight: 400;
+    }
+
+    h2{
+      margin: 0;
+      font-size: 2em;
+      font-weight: 300;
+    }
+  }
+
+  &-image{
+    padding: 15px 50px 0 0;
+    text-align: right;
+  }
+
+
+}

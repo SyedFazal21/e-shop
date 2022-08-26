@@ -1,0 +1,19 @@
+
+@import '~normalize.css/normalize.css';
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixin.scss';
+
+// Libraries
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeflex/primeflex.css';
+@import './base/configuration.scss';
+
+@import './apps/admin/shell/shell.scss';
+@import './apps/admin/shell/dashboard.scss';
+
+// Libs
+@import './libs/Users/users.scss';
+
