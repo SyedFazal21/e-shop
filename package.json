@@ -6,7 +6,7 @@
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start": "nx serve",
-    "build-eshop": "nx build e-shop --prod --output-path ../eshop --base-href /eshop/",
+    "build-eshop": "nx build e-shop --prod --output-path docs --base-href /e-shop/",
     "build-admin": "nx build admin --prod --output-path ../admin --base-href /admin/",
     "build": "nx build",
     "test": "nx test"
